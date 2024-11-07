@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     public GameObject grunt;
 
     private void Awake(){
+        grunt.SetActive(false);
         Debug.Log("(in awake function) current health " + health);
         health = maxHealth.initialValue;
     }
