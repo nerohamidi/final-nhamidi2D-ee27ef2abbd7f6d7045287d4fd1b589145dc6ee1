@@ -9,19 +9,20 @@ public class FootstepScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Debug.Log("in start");
         footstep.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("w")){
+        Debug.Log("in update");
+        if(Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d") ){
             footsteps();
-        }else if(Input.GetKey("a")){
-            footsteps();
-        }else if(Input.GetKey("s")){
-            footsteps();
+        
+          
+        }else{
+            stopFootsteps();
         }
     }
 
