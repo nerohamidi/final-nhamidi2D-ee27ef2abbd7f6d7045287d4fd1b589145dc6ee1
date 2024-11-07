@@ -16,6 +16,7 @@ public class log : Enemy
     public float attackRadius;
     public Transform homePosition;
     public Animator anim;
+    
     // Start is called before the first frame update
     private void Start()
     {
@@ -80,4 +81,8 @@ public class log : Enemy
             currentState = newState;
         }
     }
+
+    
+
+    
 }

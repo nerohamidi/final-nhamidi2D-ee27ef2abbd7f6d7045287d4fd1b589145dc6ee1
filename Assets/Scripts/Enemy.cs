@@ -20,6 +20,8 @@ public class Enemy : MonoBehaviour
     public float moveSpeed;
     // Start is called before the first frame update
 
+    public GameObject grunt;
+
     private void Awake(){
         Debug.Log("(in awake function) current health " + health);
         health = maxHealth.initialValue;
@@ -28,6 +30,7 @@ public class Enemy : MonoBehaviour
     //     health = maxHealth.initialValue;
     // }
 
+    // enemy takes damage and disappears when dead
     private void TakeDamage(float damage){
         Debug.Log("health before damage: " + health);
         health -= damage;
@@ -44,10 +47,14 @@ public class Enemy : MonoBehaviour
     }
    private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime){
         if(myRigidbody != null){
+            grunt.SetActive(true);
             yield return new WaitForSeconds(knockTime);
+            grunt.SetActive(false);
             myRigidbody.velocity = Vector2.zero;
            currentState = EnemyState.idle;
            myRigidbody.velocity = Vector2.zero;
         }
     }
+
+     
 }

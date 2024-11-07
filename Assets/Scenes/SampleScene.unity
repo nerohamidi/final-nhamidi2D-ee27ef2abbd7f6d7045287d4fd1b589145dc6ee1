@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 103491646}
   - component: {fileID: 103491647}
   - component: {fileID: 103491648}
+  - component: {fileID: 103491649}
   m_Layer: 0
   m_Name: right hit box
   m_TagString: Player
@@ -312,6 +313,102 @@ MonoBehaviour:
   thrust: 4
   knockTime: 0.4
   damage: 1
+--- !u!82 &103491649
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103491645}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 389b40e89a16842259772574e954dbb5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.679
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &143172381
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +582,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -752,6 +850,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -1019,6 +1118,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -1414,6 +1514,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -1666,6 +1767,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 5
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 12
@@ -1948,6 +2050,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -2215,6 +2318,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -2482,6 +2586,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -2655,6 +2760,7 @@ GameObject:
   - component: {fileID: 487865323}
   - component: {fileID: 487865324}
   - component: {fileID: 487865325}
+  - component: {fileID: 487865326}
   m_Layer: 0
   m_Name: left hit box
   m_TagString: Player
@@ -2742,6 +2848,102 @@ MonoBehaviour:
   thrust: 4
   knockTime: 0.4
   damage: 1
+--- !u!82 &487865326
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487865322}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 389b40e89a16842259772574e954dbb5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.679
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -18777,6 +18979,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -68214,7 +68426,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 3368
+  - m_RefCount: 3369
     m_Data: {fileID: 11400000, guid: d703e783c0e3944629ba9e0ab14039f8, type: 2}
   - m_RefCount: 558
     m_Data: {fileID: 11400000, guid: c942e8071cdb64895a6ee421292d5407, type: 2}
@@ -68299,7 +68511,7 @@ Tilemap:
   - m_RefCount: 35
     m_Data: {fileID: 11400000, guid: 7df541f0b6a3a4d13b07b613ab06bf8f, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 3368
+  - m_RefCount: 3369
     m_Data: {fileID: -1006753513, guid: 163a05c19c6e343d6af552dd63ed2619, type: 3}
   - m_RefCount: 558
     m_Data: {fileID: -1864938265, guid: 163a05c19c6e343d6af552dd63ed2619, type: 3}
@@ -68384,7 +68596,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1299843003, guid: 163a05c19c6e343d6af552dd63ed2619, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 6527
+  - m_RefCount: 6528
     m_Data:
       e00: 1
       e01: 0
@@ -68403,7 +68615,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 6527
+  - m_RefCount: 6528
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -68592,6 +68804,7 @@ GameObject:
   - component: {fileID: 580265312}
   - component: {fileID: 580265313}
   - component: {fileID: 580265314}
+  - component: {fileID: 580265315}
   m_Layer: 0
   m_Name: up hit box
   m_TagString: Player
@@ -68679,6 +68892,102 @@ MonoBehaviour:
   thrust: 4
   knockTime: 0.4
   damage: 1
+--- !u!82 &580265315
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580265311}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 389b40e89a16842259772574e954dbb5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.679
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &587471573
 GameObject:
   m_ObjectHideFlags: 0
@@ -69036,6 +69345,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -69395,6 +69705,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -70010,6 +70321,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 30
@@ -70369,6 +70681,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -70519,6 +70832,7 @@ Transform:
   - {fileID: 1959523131}
   - {fileID: 2140057056}
   - {fileID: 1195132544}
+  - {fileID: 2071280463}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1023925139
@@ -71134,6 +71448,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 1.5
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 4
@@ -71401,6 +71716,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -71745,6 +72061,7 @@ MonoBehaviour:
   enemyName: Larryith the Log
   baseAttack: 4
   moveSpeed: 6
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -72027,6 +72344,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -72369,6 +72687,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 30
@@ -72636,6 +72955,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -72782,6 +73102,7 @@ GameObject:
   - component: {fileID: 1387387105}
   - component: {fileID: 1387387106}
   - component: {fileID: 1387387107}
+  - component: {fileID: 1387387108}
   m_Layer: 0
   m_Name: down hit box
   m_TagString: Player
@@ -72869,6 +73190,102 @@ MonoBehaviour:
   thrust: 4
   knockTime: 0.4
   damage: 1
+--- !u!82 &1387387108
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387387104}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 389b40e89a16842259772574e954dbb5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.679
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1411445822
 GameObject:
   m_ObjectHideFlags: 0
@@ -87612,6 +88029,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 1.5
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 4
@@ -87851,6 +88269,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -88304,6 +88723,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -88663,6 +89083,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -89022,6 +89443,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 1.5
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 4
@@ -89289,6 +89711,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -89765,6 +90188,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
@@ -89859,6 +90283,134 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2071280462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071280463}
+  - component: {fileID: 2071280464}
+  m_Layer: 0
+  m_Name: enemyGrunt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2071280463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071280462}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 996588586}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2071280464
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071280462}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 432e7fa916664490ea85a4ed5fcf9844, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2109021222
 GameObject:
   m_ObjectHideFlags: 0
@@ -90032,6 +90584,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 30
@@ -90391,6 +90944,7 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 8
+  grunt: {fileID: 2071280462}
   myRigidbody: {fileID: 0}
   target: {fileID: 1411445825}
   chaseRadius: 20
