@@ -20,6 +20,8 @@ public class FootstepScript : MonoBehaviour
             footsteps();
         }else if(Input.GetKey("a")){
             footsteps();
+        }else if(Input.GetKey("s")){
+            footsteps();
         }
     }
 
